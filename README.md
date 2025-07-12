@@ -1,6 +1,7 @@
 This is an Intel Unnati Project - Healthcare Kiosks(Project 6)
 
 The report for the project is the pdf titled "Healthcare_Kiosk.pdf"
+
 More information about the project is given here
 
 To run this project
