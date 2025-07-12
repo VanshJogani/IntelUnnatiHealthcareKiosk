@@ -41,3 +41,10 @@ cd faceidloginbackend/backend
 npm install
 npm start
 ```
+
+### 4️⃣ Start the Frontend (React App)
+```bash
+cd kiosk
+npm install
+npm start
+```
