@@ -7,6 +7,7 @@ The report for the project is the pdf titled "Healthcare_Kiosk.pdf"
 More information about the project is given here
 
 To run this project
+
 You must first run the backend locally
 
 There are 3 backends that you must run
