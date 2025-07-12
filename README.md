@@ -1,8 +1,10 @@
 This is an Intel Unnati Project - Healthcare Kiosks(Project 6)
 
+The report for the project is the pdf titled "Healthcare_Kiosk.pdf"
+
 HealDesk - Vansh Jogani and Adithi NR
 
-The report for the project is the pdf titled "Healthcare_Kiosk.pdf"
+
 
 More information about the project is given here
 
