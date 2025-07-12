@@ -1,55 +1,43 @@
-This is an Intel Unnati Project - Healthcare Kiosks(Project 6)
+# 🏥 HealDesk - Healthcare Kiosks  
+**Intel Unnati Project 6**  
+**Team Members:** Vansh Jogani, Adithi N R
 
-The report for the project is the pdf titled "Healthcare_Kiosk_Detailed_Report.pdf"
+HealDesk is a smart healthcare kiosk solution designed to simplify and automate patient check-ins, diagnostics, and data handling. It integrates modern web technologies, machine learning for disease prediction, and biometric authentication via face recognition.
 
-HealDesk - Vansh Jogani and Adithi NR
+📄 **Project Report:**  
+See the full documentation in [Healthcare_Kiosk_Detailed_Report.pdf](./Healthcare_Kiosk_Detailed_Report.pdf)
 
+---
 
+## 📦 Project Structure
 
-More information about the project is given here
+The project includes:
+- ✅ **Frontend** (`/kiosk`) — React-based UI
+- 🧠 **Disease Prediction Backend** (`/disease_predictor_backend`) — Python + ML
+- 🔐 **Face ID Login Backend** (`/faceidloginbackend/backend`) — Node.js + face-api.js
+- 🌐 **General Backend** (`/backend`) — Node.js API and database handling
 
-To run this project
+---
 
-You must first run the backend locally
+## 🚀 How to Run the Project
 
-There are 3 backends that you must run
+### 1️⃣ Start General Backend
 
-
-
-First
-
-\backend
-
+```bash
+cd backend
 npm install
-
 npm start
-
-
-Second
-
-\disease_predictor_backend
-
-Install all the dependencies
-
+```
+### 2️⃣ Start Disease Predictor Backend
+```bash
+cd disease_predictor_backend
+pip install -r requirements.txt
 python predict_disease.py
+```
 
-
-Third
-
-\faceidloginbackend\backend
-
+### 3️⃣ Start Face ID Login Backend
+```bash
+cd faceidloginbackend/backend
 npm install
-
 npm start
-
-
-Then to run the frontend you must
-
-\kiosk
-
-npm install
-
-npm start
-
-
-
+```
